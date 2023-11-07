@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.0.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-router-dom": "^6.18.0",
+    "speak-tts": "^2.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "v18.17.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-speech-recognition": "^3.9.4",
+    "@types/regenerator-runtime": "^0.13.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.1",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "express": {
+    "port": 3001
+  },
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "app.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite",
+    "storage": "instance/app.db"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "app.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite",
+    "storage": "instance/app.db"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "app.db",
+    "host": "127.0.0.1",
+    "dialect": "sqlite",
+    "storage": "instance/app.db"
+  }
+}
